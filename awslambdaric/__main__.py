@@ -6,7 +6,7 @@ import os
 import sys
 
 from . import bootstrap
-
+from single_file_inference import Wave2vecctc
 
 def main(args):
     app_root = os.getcwd()
